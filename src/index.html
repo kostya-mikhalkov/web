@@ -1,13 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Runsmart</title>
+    <link rel="stylesheet" href="../src/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="../src/fonts/font.css">
+    <link rel="stylesheet" href="../src/css/slick.css">
+    <link rel="stylesheet" href="../src/css/style.css">
 </head>
 <body>
-    <h1>Hellodfdfxsxsx fdf</h1>
-    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum tempora harum, blanditiis voluptatem sit error optio! A commodi esse incidunt laboriosam? Nostrum harum dolor nulla corporis accusantium adipisci fuga totam?</p>
+    <section class="promo">
+        <img class="promo__image" src="../src/img/bg.jpg" alt="bg">
+        <div class="container">
+            <header class="header">
+                <a href="#" class="header__logo">
+                    <img src="../src/img/running-man.png" alt="logo">
+                </a>
+                <div class="header__official">
+                    Официальный представитель
+                    <span>Garmin, Polar, Suunto</span>
+                </div>
+                <div class="header__contacts">
+                    <a href="tel:+74999228974" class="header__phone">+7 (499) 922-89-74</a>
+                    <button class="button">заказать звонок</button>
+                </div>
+            </header>
+            <div class="burger-menu">
+                <input id="menu-toggle" type="checkbox" />
+                <label class="menu-btn" for="menu-toggle">
+                  <span></span>
+                </label>
+             
+                <div class="menubox">
+                    <a href="#" class="header__logo">
+                        <img src="../src/img/running-man.png" alt="logo">
+                    </a>
+                    <div class="header__official">
+                        Официальный представитель
+                        <span>Garmin, Polar, Suunto</span>
+                    </div>
+                    <div class="header__contacts">
+                        <a href="tel:+74999228974" class="header__phone">+7 (499) 922-89-74</a>
+                        <button class="button">заказать звонок</button>
+                    </div>
+                </div>
+              </div>
+            <div class="promo__wrapper">
+                <h1 class="promo__header">Подбор пульсометра</h1>
+                <h2 class="promo__subheader">с учётом Вашего уровня подготовки</h2>
+                <div class="promo__icons">
+                    <div class="promo__icon">
+                        <img src="../src/icons/timer.svg" alt="icon">
+                        Время подбора:
+                        10 минут
+                    </div>
+                    <div class="promo__icon">
+                        <img src="../src/icons/handcart.svg" alt="icon">
+                        Бесплатная доставка
+                    </div>
+                    <div class="promo__icon">
+                        <img src="../src/icons/messages.svg" alt="icon">
+                        Ответим на все вопросы
+                    </div>
+                </div>
+                <button class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
+                <div class="promo__link">
+                    или
+                    <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="advantage">
+        <div class="container">
+            <h2>НАШИ ПРЕИМУЩЕСТВА</h2>
+            <div class="advantage__body">
+                <div class="advantage__item">
+                    <img src="../src/img/cup.png" alt="cup">
+                    <h3>Делимся опытом</h3>
+                    <p>Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</p>
+                </div>
+                <div class="advantage__item">
+                    <img src="../src/img/heart.png" alt="heart">
+                    <h3>Заботимся о здоровье</h3>
+                    <p>Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</p>
+                </div>
+                <div class="advantage__item">
+                    <img src="../src/img/shoe.png" alt="shoe">
+                    <h3>Учим бегать</h3>
+                    <p>Помогаем с обучением правильной технике бега! Дружим с крупнейшей школой бега в России - <span>I LOVE RUNNING.</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="consultation">
+        <div class="container">
+            <div class="consultation__body">
+                <h2 class="title">
+                    Получите бесплатную консультацию по подбору пульсометра
+                </h2>
+                <div class="consultation__descr">
+                    Просто заполните форму заявки <br> и мы перезвоним вам в течении 10 минут
+                </div>
+                <form class="feed-form" action="#">
+                    <input name="name" required placeholder="Ваше имя" type="text">
+                    <input name="phone" required placeholder="Ваш телефон" type="number">
+                    <input name="email" required placeholder="Ваш E-mail" type="email">
+                    <button class="button button_subbmit">заказать консультацию</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div>
+                    <img src="../src/img/slide№1.jpg" alt="slide">
+                </div>
+                <div>
+                    <img src="../src/img/slide№2.jpg" alt="slide">
+                </div>
+                <div>
+                    <img src="../src/img/slide№3.jpg" alt="slide">
+                </div>
+              </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="../src/js/slick.min.js"></script>
+    <script src="../src/js/script.js"></script>
 </body>
 </html>
