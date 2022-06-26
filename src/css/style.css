@@ -223,6 +223,10 @@
     height: 55px;
     font-size: 16px;
     color: #FFFFFF; }
+  .button_mini {
+    width: 135px;
+    height: 44px;
+    font-size: 14px; }
   @media (max-width: 767px) {
     .button_main {
       min-width: 240px; } }
@@ -360,5 +364,96 @@
     .carousel .slick-next img {
       width: 31px;
       height: 50px; }
+
+.catalog {
+  padding-bottom: 80px; }
+  .catalog .title {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase; }
+  .catalog__tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 46px;
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-left: 0; }
+  .catalog__tab {
+    width: 222px;
+    height: 52px;
+    background: rgba(0, 0, 0, 0.0001);
+    border: 2px solid #D0D0D0;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #6B6B6B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: skewX(-25deg);
+    cursor: pointer;
+    transition: 0.5s all; }
+    .catalog__tab:hover {
+      box-shadow: 3px 3px 20px #c70101;
+      border: none; }
+    .catalog__tab div {
+      transform: skewX(25deg); }
+    .catalog__tab_active {
+      color: #ffff;
+      background-color: #c70101;
+      border: none; }
+  .catalog__content {
+    margin-top: 57px; }
+  .catalog-item {
+    width: 303px;
+    min-height: 442px;
+    border: 2px solid #E8E8E8;
+    padding: 20px 18px 20px 23px; }
+    .catalog-item__img {
+      max-width: 100%;
+      height: 200px;
+      display: block;
+      margin: 0 auto; }
+    .catalog-item__subtitle {
+      margin-top: 15px;
+      font-weight: 700;
+      font-size: 16px;
+      text-align: center;
+      color: #0D0D0D; }
+    .catalog-item__descr {
+      margin-top: 15px;
+      font-weight: 300;
+      font-size: 14px;
+      text-align: center;
+      color: #0D0D0D; }
+    .catalog-item__link {
+      display: block;
+      margin-top: 10px;
+      font-weight: 500;
+      font-size: 14px;
+      text-align: center;
+      text-decoration-line: underline;
+      color: #c70101; }
+      .catalog-item__link:hover {
+        color: #c70101; }
+    .catalog-item hr {
+      background: #E8E8E8;
+      margin: 17px 0 17px 0;
+      border-bottom: none; }
+    .catalog-item__footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+    .catalog-item__old-price {
+      font-weight: 300;
+      font-size: 14px;
+      text-decoration-line: line-through;
+      color: #555555; }
+    .catalog-item__price {
+      font-weight: 700;
+      font-size: 20px;
+      color: #050505; }
 
 /*# sourceMappingURL=style.css.map */
