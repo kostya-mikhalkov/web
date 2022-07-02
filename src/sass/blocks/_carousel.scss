@@ -2,8 +2,12 @@
     padding: 81px 0;
     &__inner {
         position: relative;
-        width: 750px;
+        max-width: 750px;
         margin: 0 auto;
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
     }
     .slick-prev {
         position: absolute;
@@ -27,6 +31,50 @@
         img {
             width: 31px;
             height: 50px;
+        }
+    }
+    .slick-dots {
+        // position: absolute;
+        // bottom: -45px;
+        // list-style: none;
+        // display: block;
+        text-align: center;
+        // padding: 0;
+        // width: 100%;
+        
+        li {
+            position: relative;
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+            margin: 0 5px;
+            padding: 0;
+            cursor: pointer;
+
+            button {
+                border: 0;
+                padding: 0;
+                width: 10px;
+                height: 10px;
+                background-color: #eee;
+                border-radius: 50%;
+                color: transparent;
+                font-size: 0;
+                opacity: .8;
+
+                &:hover {
+                    cursor: pointer;
+                    opacity: 1;
+                }
+
+                &:hover, &:focus {
+                    outline: none;
+                }
+            }
+            &.slick-active button {
+                background-color: rgb(226, 13, 13);
+                opacity: 1;
+            }
         }
     }
 }

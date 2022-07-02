@@ -42,4 +42,13 @@
             font-size: 14px;
         }
     }
+    .error {
+        border: 1px solid red;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    label.error {
+        border: none;
+        margin: 10px 0 10px 0;
+    }
 }
