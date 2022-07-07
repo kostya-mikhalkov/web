@@ -1,4 +1,6 @@
 @import 'base/variables';
+@import 'base/animated';
+
 
 * {
 font-family: 'Museo Sans Cyrl 500', sans-serif;
@@ -20,3 +22,5 @@ padding: 0 15px;
 @import 'blocks/reviews';
 @import 'blocks/footer';
 @import 'blocks/modal';
+@import 'blocks/pageup';
+

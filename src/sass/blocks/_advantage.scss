@@ -39,6 +39,15 @@
             }
         }
     }
+    &__icon {
+        &_anim {
+            animation-name: heartIron;
+            animation-duration: 3s;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
     @media (max-width: 768px) {
         &__body {
             flex-direction: column;
